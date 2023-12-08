@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/workout_name"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Workout Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/workout_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duration"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/watch_video_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="6dp"
+        android:text="Watch video" />
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_toEndOf="@id/watch_video_button" />
+
+</LinearLayout>
